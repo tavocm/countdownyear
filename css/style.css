@@ -1,3 +1,27 @@
+/* hoja de estislo css*/
+
+body {
+    font-family: cursive;
+    background-color: slateblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.year {
+    color: #fff;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
 .countdown {
     color: #fff;
     background-color: rgba(0, 0, 0, 0.1);    
@@ -16,14 +40,14 @@
     font-weight: 500;
     position: relative;
     text-align: center;
-    width: 100px;
+    
 }
 
 .countdown div ::before {
     content: "";
-    position: relative;
+    position: absolute;
     left: 0;
-    font-size: 0.35rem;
+    font-size: 1rem;
     line-height: 35px;
     letter-spacing: 1 px;
     font-weight: 500;
