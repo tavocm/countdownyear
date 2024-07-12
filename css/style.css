@@ -29,7 +29,7 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30;
+    margin: 30px;
     width: 100%;
 
 }
@@ -43,7 +43,7 @@ h2 {
     
 }
 
-.countdown div ::before {
+.countdown div::before {
     content: "";
     position: absolute;
     left: 0;
@@ -62,10 +62,10 @@ h2 {
 .countdown #hour::before{
     content: "Horas";
 }
-.countdown #minute::before {
+.countdown #minute::before{
     content: "Minutos";
 }
-.countdown #second::before {
+.countdown #second::before{
     content: "Segundos";
 }
 
